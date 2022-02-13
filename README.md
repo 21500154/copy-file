@@ -6,21 +6,26 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+Open a file named java.txt in read mode.
 ### Step 2: 
- 
+ data= f1.raed() this statement reads the entire data of the file.
 ### Step 3: 
-
+Open a new file(copyjava.txt) to copy your existing file.
 ### Step 4:  
-
+Open a file named copyjava.txt in writing mode.
 ### Step 5: 
-
-### Step 6: 
+f2.write(data) this statement enables you to write the content read in existing file into your new file.
 
 ## PROGRAM:
+```
+with open("java.txt","r") as f1:
+    data = f1.read()
+with open("copyjava.txt","w") as f2:
+    f2.write(data)
+```
 
 ### OUTPUT:
-
+![copyop](https://user-images.githubusercontent.com/93427345/153755970-bfa0e231-edd6-42ed-be02-125627745be7.png)
 
 
 ## RESULT:
